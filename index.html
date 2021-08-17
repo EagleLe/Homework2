@@ -1,108 +1,78 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Eagle Portfolio Website</title>
+        <link rel="stylesheet" href="css/style.css">
 
-<head>
-
-    <title>Basic Portfolio</title>
-        <link rel="stylesheet" href="Assets/images/styles.css">
-</head>
-
-<body>
-    <nav class="navbar-expanded">
-      <div class="container">
-        <a class="nav-bar" href="index.html" id="logo">Eagle Le</a>
-        <button class="navbar-toggler" 
-                type="button" 
-                data-toggle="collapse" 
-                data-target="#navbarTogglerDemo01"
-                aria-controls="navbarTogglerDemo01" 
-                aria-expanded="false" 
-                aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="NavBar">
-          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-            <li class="navitems">
-              <a class="navlink" href="contact-me.html">Contact Me</a>
-            </li>
-            <li class="navitems">
-              <a class="navlink" href="Resume.html">Resume</a>
-            </li>
-            <li class="navitems">
-              <a class="navlink" href="work.html">Work</a>
-            </li>
-            <li class="navitems">
-              <a class="navlink" href="index.html">About Me</a>
-            </li>
-          </ul>
-        </div>
-    </div>
-    </nav>
+    </head>
+    <body>
+        <section class="intro" id="home">
+            <h1 class="header1">
+                Hi, I am <strong>Eagle Le</strong>
+            </h1>
+            <p class="subheader subheader--1">Full Stack developer</p>
+            <img src="img/Eagle.png" alt="" class="img2">
+        </section>  
+        
+        <section class="about-me" id="about">
+           <h2 class="">Who I am</h2>
+           <p class="subheader subheader--2">Based in Atlanta, Georgia</p>
+           
+           <div class="about-me__body">
+               <p>I recently Graduated from Georgia State University with a bachelor of Neuroscience. I was part of the Men Ultimate Frisbee Club as well as the Collegiate Neuroscience society all four years at my school. This lead me do a lot of volunteer experience outside of school. This past year I have been working at cvs as a pharmacy Technician. With the whole Covid-19 event, I have since transitioned to doing covid testing at the GA tech site full time. I get to do a lot of swabbing and do testing. Outside of works, I like play a lot of instruments and video games.</p>
+               <p>As of 2021, I signed up for a coding boot-camp and I am on my path to becoming a full-Stack developer.</p>
+           </div>
+           
+           <img src="img/Eagle 2.jpg" alt="" class="img1">
+        </section>
 
 
-    <main class="container">
-      <section class="row">
-        <div class="col-md-8">
-          <article class="block">
-            <h1 class="block-header">About Me</h1>
-            <hr />
-            <img src="assets/images/Picture.jpg" alt="" id="Coder" />
-            <p>Text. Text. Text. Text. Text. Text. Text. Text. 
-                Text. Text. Text. Text. Text. Text. Text. Text. 
-                Text. Text. Text. Text. Text. Text. Text. Text. 
-            </p>
-            <br />
-            <p>
-                Text. Text. Text. Text. Text. Text. Text. Text. 
-                Text. Text. Text. Text. Text. Text. Text. Text. 
-                Text. Text. Text. Text. Text. Text. Text. Text. 
-                Text. Text. Text. Text. Text. Text. Text. Text. 
-                Text. Text. Text. Text. Text. Text. Text. Text. 
-                Text. Text. Text. Text. Text. Text. Text. Text. 
-            </p>
-          </article>
-        </div>
-      </section>
-    </main>
-
-<div class="container">
-    <main class="row">
-        <div class="col-md-8">
-            <article class="block">
-              <h1 class="block-header">Pictures</h1>
-              <div class="row">
-                  </div>
-                <div class="picture">
-                  <img class="images" src="Assets/images/computer.jpg" id="images">
-                <div class="picture">
-                  <img class="images" src="Assets/images/food.jpg" id="images">
+        <section class="my-projects" id="projects">
+            <h2 class="">My Projects</h2>
+            <p class="subheader subheader--2">Deployed on Github</p>
+            
+            <div class="portfolio">
+                <a href="https://github.com/sxtnkyl/Timbre" class="project-item">
+                    <h3 class="project-content">Timbre</h3>
+                    <img src="img/TImbre.jpg" alt="" class="project_img">
+                </a>
                 
-              <div class="row">
-                <div class="picture">
-                  <img class="images" src="Assets/images/House.jpg" id="images">
-                </div>
-                <div class="picture">
-                  <img class="images" src="Assets/images/map.jpg" id="images">
-                </div>
-              </div>
-              <div class="row">
-                <div class="picture">
-                  <img class="images" src="Assets/images/phone.jpg" id="images">
-                </div>
-            </article>
-        </div>
-    </main>
-</div>
-      
-      <footer class="footer">
-      <div class="footercolor"></div>
-      <p class="text">
-        &copy; Copyright Summer 2021
-      </p>
-    </footer>
+                <a href="https://eaglele.github.io/Homework-3/" class="project-item">
+                    <h3 class="project-content">Password Generator</h3>
+                    <img src="img/Password.png" alt="" class="project_img">
+                </a>
+                
+                <a href="https://matildabrantley.github.io/project-one/" class="project-item">
+                    <h3 class="project-content">Brewhaha</h3>
+                    <img src="img/brewhaha.png" alt="" class="project_img">
+                </a>
+                
+                <a href="https://github.com/EagleLe/Read-Me" class="project-item">
+                    <h3 class="project-content">Read-Me Generator</h3>
+                    <img src="img/Readme.png" alt="" class="project_img">
+                </a>
+                
+                <a href="https://eaglele.github.io/5-Day-Planner/" class="project-item">
+                    <h3 class="project-content">Day Planner</h3>
+                    <img src="img/Daily Planner.png" alt="" class="project_img">
+                </a>
+                
+                <a href="https://protected-chamber-13700.herokuapp.com/" class="project-item">
+                    <h3 class="project-content">Notetaker</h3>
+                    <img src="img/Notetaker.png" alt="" class="project_img">
+                </a>
+            </div>
+        </section>
 
-
-  
-  </body>
-  
-  </html>
+        <section>
+            <p class="subheader subheader--2">Contact Information</p>
+            <a href="mailto:eagle.lam.le@gmail.com" class="about-me__body">Eagle's Email</a>
+                <br>
+            <a href="https://github.com/EagleLe" class="about-me__body">Github</a>
+            <br>
+            <a href="https://www.linkedin.com/in/eagle-le-b18b47162/" class="about-me__body">Eagle's Linkedin</a>
+        </section>
+    </body>
+</html>
