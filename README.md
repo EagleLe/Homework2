@@ -1,7 +1,9 @@
 # Portfolio
 
 Created portfolio using Html and Css that includes navigation bar, images, and contacts. 
+# Deployed
 
+https://eaglele.github.io/portfolio/
 # Screenshots
 
 ![image](https://user-images.githubusercontent.com/85507148/130223181-38068138-75b8-43d3-bf20-48b16681fb73.png)
